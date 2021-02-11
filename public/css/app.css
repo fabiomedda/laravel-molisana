@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #4d4d4d;
+  font-family: "Nunito", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header .logo {
+  text-align: center;
+  padding: 20px 0;
+}
+
+header nav.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #B1D281;
+  height: 60px;
+}
+
+header a {
+  margin: 0 7px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+  border-bottom: 4px solid rgba(0, 0, 0, 0);
+}
+
+header a:hover {
+  color: #002D75;
+  border-bottom-color: #002D75;
+}
+
